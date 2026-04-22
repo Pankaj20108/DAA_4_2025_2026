@@ -1,0 +1,110 @@
+# 🚀 SortLab — Sorting Algorithm Visualizer
+
+
+An immersive and interactive **Sorting Algorithm Visualizer** built using **HTML, CSS, and JavaScript**.
+This project helps users understand how different sorting algorithms work through **real-time animations, comparisons, and performance metrics**.
+
+---
+
+## ✨ Features
+
+* 🎯 Visualize multiple sorting algorithms in real-time
+* ⚡ Adjustable speed and array size
+* 🔀 Multiple input patterns:
+
+  * Random
+  * Nearly Sorted
+  * Reversed
+  * Few Unique
+* 🆚 Multiple modes:
+
+  * Single Algorithm
+  * Compare (2 algorithms side-by-side)
+  * Race (all algorithms together)
+* 📊 Live statistics:
+
+  * Comparisons
+  * Swaps/Writes
+  * Execution Time
+* 📚 Built-in complexity reference table
+* ⏸ Pause / Resume / Reset functionality
+* 🎨 Clean and modern UI with smooth animations
+
+---
+
+## 🧠 Algorithms Implemented
+
+### 🔷 Comparison-Based
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+* Shell Sort
+
+### ⚡ Non-Comparison-Based
+
+* Counting Sort
+* Radix Sort
+* Bucket Sort
+
+---
+
+## 🛠️ Tech Stack
+
+* **HTML5** – Structure
+* **CSS3** – Styling & animations
+* **JavaScript (Vanilla JS)** – Logic & visualization engine
+
+---
+
+## 📸 Preview
+
+> Add screenshots or GIFs here for better engagement
+> (Tip: Use tools like ScreenToGif or OBS)
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/sortlab.git
+```
+
+### 2️⃣ Open project
+
+Simply open `index.html` in your browser
+
+---
+
+## 🎮 How to Use
+
+1. Select an input type (Random / Reversed / etc.)
+2. Choose a sorting algorithm
+3. Adjust speed and size
+4. Click **Start**
+5. Observe the visualization and stats
+
+---
+
+## 📊 Complexity Overview
+
+| Algorithm      | Best Case  | Average Case | Worst Case |
+| -------------- | ---------- | ------------ | ---------- |
+| Bubble Sort    | O(n)       | O(n²)        | O(n²)      |
+| Selection Sort | O(n²)      | O(n²)        | O(n²)      |
+| Insertion Sort | O(n)       | O(n²)        | O(n²)      |
+| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) |
+| Quick Sort     | O(n log n) | O(n log n)   | O(n²)      |
+| Heap Sort      | O(n log n) | O(n log n)   | O(n log n) |
+| Shell Sort     | O(n log n) | ~O(n^1.3)    | O(n²)      |
+| Counting Sort  | O(n + k)   | O(n + k)     | O(n + k)   |
+| Radix Sort     | O(d(n+k))  | O(d(n+k))    | O(d(n+k))  |
+| Bucket Sort    | O(n + k)   | O(n + k)     | O(n²)      |
+
+---
+
